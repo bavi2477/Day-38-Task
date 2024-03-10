@@ -9,7 +9,7 @@ export const renderHomePage = (req, res) => {
         { method: 'GET', path: '/booking-history/:customer_name', description: 'List booking history for a customer' }
     ];
 
-    res.status(200).json({ 
+    res.status(200).send({ 
         message: "Welcome to Bavithra's hotel",
         routes: routes
     });
