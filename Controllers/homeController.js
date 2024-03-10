@@ -9,5 +9,8 @@ export const renderHomePage = (req, res) => {
         { method: 'GET', path: '/booking-history/:customer_name', description: 'List booking history for a customer' }
     ];
 
-    res.status(200).send('<div style="text-align: center;">Welcome to Bavi hotel</div>', routes)
+    res.status(200).send({ 
+        message: "Welcome to Bavithra's hotel",
+        routes: routes
+    });
 };
