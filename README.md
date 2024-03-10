@@ -6,7 +6,7 @@ This is a Node.js application for managing hall bookings. It provides APIs for c
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
+   git clone <https://github.com/bavi2477/Day-38-Task.git>
 
 2. **Install dependencies**
    ```bash
